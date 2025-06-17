@@ -10,4 +10,11 @@ list.append("HelloWorld")
 #     print(item,end=" ")
     
 list.reverse()
-print(list,end=" ")
+# print(list,end=" ")
+list2 = []
+list2.insert(1,4)
+list2.sort(reverse=True)
+print(list2)
+
+list3 =list + list2
+print(f"list3 contains: {list3}")
